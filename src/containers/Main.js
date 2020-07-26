@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
-import Skills from "./skills/Skills";
-import Contact from "./contact/Contact";
-import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
-import Top from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
+import About from "./about/About";
+import Reels from "./reels/Reels";
+import Gallery from "./gallery/Gallery";
 import Profile from "./profile/Profile";
+import Footer from "../components/footer/Footer";
+import Top from "./topbutton/Top";
 
 export default class Main extends Component {
   render() {
@@ -16,9 +14,9 @@ export default class Main extends Component {
       <div>
         <Header />
         <Greeting />
-        <Skills />
-        <Podcast />
-        <Talks />
+        <About />
+        <Reels />
+        <Gallery />
         <Profile />
         <Footer />
         <Top />
