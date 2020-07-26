@@ -7,34 +7,27 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Jeremy Bellemur",
+  title: "Hi all, I'm Jeremy Bellemur",
+  subTitle: emoji("Actor"),
+  resumeLink: "https://drive.google.com/file/d/1jbCz_8k-UWRALMNO3o8_JkIgsErHVn3V/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  gmail: "jbellemur@icloud.com",
+  instagram: "https://www.instagram.com/jbellemur/"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
-  ],
+  title: "About Me",
+  subTitle: "Film and TV actor from the Bay Area",
+  skills: "I want to better myself and grow as a person. I love to pursue my fitness goals, try new things, and learn as much as I can. I am always excited to push my comfort zone and take every opportunity as a lesson learned.",
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -237,34 +230,40 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  title: "Gallery",
+  subtitle: emoji("Headshots"),
 
   talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+  {
+    original: 'https://picsum.photos/id/1018/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
   ]
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Reels 🎥"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["https://www.youtube.com/watch?v=ug50zmP9I7s", ]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project with me!",
+  number: "(650)-308-8559",
+  email_address: "jbellemur@icloud.com"
 };
 
 //Twitter Section

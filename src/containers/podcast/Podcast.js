@@ -2,6 +2,7 @@ import React from "react";
 import "./Podcast.css";
 import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
+import ReactPlayer from "react-player"
 
 export default function Podcast() {
   return (
@@ -15,8 +16,11 @@ export default function Podcast() {
         {podcastSection.podcast.map(podcastLink => {
           return (
             <div>
-              <iframe className= "podcast" src={podcastLink} frameborder="0" scrolling="no"></iframe>
-            </div>
+          <ReactPlayer
+            url= {podcastLink}
+          />
+        </div>
+ 
           );
         })}
       </div>
