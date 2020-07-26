@@ -18,6 +18,7 @@
     "react-player": "^2.6.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.2.0",
+    "react-simple-image-slider": "^1.0.4",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {

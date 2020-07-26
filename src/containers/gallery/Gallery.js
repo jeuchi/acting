@@ -4,8 +4,9 @@ import { gallerySection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import ImageGallery from 'react-image-gallery';
 
+import SimpleImageSlider from "react-simple-image-slider";
 
-export default function Talks() {
+export default function Gallery() {
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="gallery">
@@ -13,7 +14,13 @@ export default function Talks() {
         <h1 className="gallery-header-title">{gallerySection.title}</h1>
         <p className="subTitle gallery-header-subtitle">{gallerySection.subtitle}</p>
         <div className="gallery-cards-div">
-            <ImageGallery items={gallerySection.images} />
+             <SimpleImageSlider
+                    width={896}
+                    height={504}
+                    images={gallerySection.images}
+                    navStyle={2}
+                    onCompleteSlide={0}
+                />
         </div>
       </div>
     </div>

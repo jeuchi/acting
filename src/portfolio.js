@@ -38,7 +38,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "jeuchi", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -51,18 +51,8 @@ const gallerySection = {
   subtitle: emoji("Headshots"),
 
   images: [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-  },
+  { url: 'https://i.ibb.co/bJWNcDj/Headshot-Jan-2020-Final.jpg' },
+  { url: 'https://i.ibb.co/q1fq7HC/Head-Shot-D.jpg' },
   ]
 };
 
@@ -70,10 +60,10 @@ const gallerySection = {
 
 const reelsSection = {
   title: emoji("Reels 🎥"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Watch me in action!",
 
   // Please Provide with Your Podcast embeded Link
-  reels: ["https://www.youtube.com/watch?v=ug50zmP9I7s", ]
+  reels: ["temp", ]
 };
 
 const contactInfo = {

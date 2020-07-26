@@ -14,14 +14,22 @@ export default function Reels() {
       </div>
       <div className="reels-main-div">
         {reelsSection.reels.map(reelsLink => {
+          if(reelsLink == 'temp'){
+            return(
+              <div>
+                <p>UNDER CONSTRUCTION</p>
+              </div>
+            )
+          }else {
           return (
             <div>
           <ReactPlayer
             url= {reelsLink}
           />
         </div>
+      
  
-          );
+          )};
         })}
       </div>
     </div>
