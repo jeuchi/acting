@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jeremy Bellemur",
   title: "Hi all, I'm Jeremy Bellemur",
-  subTitle: emoji("Actor"),
+  subTitle: "Actor",
   resumeLink: "https://drive.google.com/file/d/1jbCz_8k-UWRALMNO3o8_JkIgsErHVn3V/view?usp=sharing"
 };
 
@@ -17,7 +17,7 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  gmail: "jbellemur@icloud.com",
+  icloud: "jbellemur@icloud.com",
   instagram: "https://www.instagram.com/jbellemur/"
   // Instagram and Twitter are also supported in the links!
 };

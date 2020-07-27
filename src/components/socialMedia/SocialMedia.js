@@ -30,6 +30,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.icloud ?
+      <a href={`mailto:${socialMediaLinks.icloud}`} className="icon-button linkedin" target="_blank">
+        <i className="fa fa-cloud"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
       {socialMediaLinks.gitlab ?
       <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
         <i className="fab fa-gitlab"></i>

@@ -16,7 +16,7 @@ export default function About() {
         <div className="about-text-div">
           <h1 className="about-heading">{aboutSection.title} </h1>
           <p className="subTitle about-text-subtitle">{aboutSection.subTitle}</p>
-          <p className="subTitle about-text-subtitle">{aboutSection.text}</p>
+          <p className="about-text-subtitle">{aboutSection.text}</p>
           
         </div>
         </Fade>
