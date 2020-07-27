@@ -32,7 +32,7 @@ export default function socialMedia() {
 
       {socialMediaLinks.icloud ?
       <a href={`mailto:${socialMediaLinks.icloud}`} className="icon-button linkedin" target="_blank">
-        <i className="fa fa-cloud"></i>
+        <i className="fa fa-envelope"></i>
         <span></span>
       </a>
       :
