@@ -69,7 +69,7 @@ const reelsSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project with me!",
-  number: "(650)-308-8559",
+  number: "(650)-517-3134",
   email_address: "jbellemur@icloud.com"
 };
 
